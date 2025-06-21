@@ -3,8 +3,6 @@ using NPOI.SS.UserModel;
 using NPOI.SS.Util;
 using NPOI.XSSF.UserModel;
 using SplitFile.Models;
-using System.IO;
-using System.Linq;
 
 namespace FileToolLib.Services
 {

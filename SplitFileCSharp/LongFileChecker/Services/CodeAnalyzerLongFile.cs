@@ -1,16 +1,9 @@
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using System.Collections.Generic;
-using System.Linq;
 using LongFileChecker.Models;
-using System.IO;
-using System.Threading.Tasks;
-using System.Diagnostics;
-using System;
 using Microsoft.CodeAnalysis.Editing;
 using Microsoft.CodeAnalysis.Text;
-using System.Threading;
 
 namespace LongFileChecker.Services
 {

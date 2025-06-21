@@ -4,7 +4,6 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using SplitFile.Models;
 using System.Diagnostics;
-using System.Text.RegularExpressions;
 
 namespace SplitFile.Services
 {
