@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EPPlus" Version="7.0.8" />
+		<PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.8.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.8.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FileToolLib\FileToolLib.csproj" />
+		<ProjectReference Include="..\RemoveUnusedMember\RemoveUnusedMember.csproj" />
+		<ProjectReference Include="..\SplitFile\SplitFile.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Forms\" />
+	  <Folder Include="Models\" />
+	  <Folder Include="Services\" />
+	</ItemGroup>
+
+</Project>
