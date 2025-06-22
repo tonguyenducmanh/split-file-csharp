@@ -1,5 +1,3 @@
-hướng dẫn sử dụng tool chia nhỏ file của SA NNAnh - CRM
-
 bước 1: mở tool Split File tool ( build project FileTool.sln)
 
 bước 2: copy phần phân tích và cho vào AI để gen ra danh sách file tối ưu theo từng loại nghiệp vụ cụ thể
